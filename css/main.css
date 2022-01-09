@@ -1,0 +1,354 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height:100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+}
+
+
+.content{
+    background-color: antiquewhite;
+    
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .logo{
+    position: relative;
+    color: rgb(224, 164, 86);
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+
+}
+
+header .navigation a{
+    color: #fff;
+    background: rgb(224, 164, 86);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+    margin-right: 5em;
+    
+
+}
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .navigation a:hover{
+    background:rgb(192, 113, 10) ;
+    
+}
+.content .info{
+    padding: 10em 6.2em  ;
+    
+}
+    
+
+
+.content .info h3{
+    color:rgb(192, 113, 10) ;
+    font-size: 45px;
+
+}
+.content .info h4{
+    color:rgb(192, 113, 10) ;
+    font-size: 45px;
+
+}
+.content{
+    display: flex;
+}
+
+.form .buttons{
+    width: 150px;
+    margin-top: 4.5em;
+    margin-left: -1.7em;
+   
+    
+    
+  }
+  
+
+  input[type=button] {
+    width: 250%;
+    display: block;
+    height: 60px;
+    font-size: 15px; 
+    background-color:rgb(224, 164, 86);
+    margin: 3em;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    
+    
+  }
+  
+  input[type=button]:hover{
+    
+    background-color:rgb(192, 113, 10);
+    
+    
+  }
+  .form{
+      background-color: #fff;
+      padding: 2em;
+      border-radius: 1em;
+      height: 500px;
+      width: 500px;
+      margin-top: 4em;
+      margin-left: 8em;
+      box-shadow: 10px 10px 10px rgba(136, 79, 4, 0.3);
+     
+  }
+  .content .form h5{
+      font-size: 19px;
+      text-align: center;
+      color:rgb(192, 113, 10) ;
+      font-weight: 600;
+  }
+
+.bg-modal1{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.modal-content{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 1em;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    
+}
+.modal-content p{
+    font-size: 19px;
+    text-align: center;
+    color:rgb(192, 113, 10) ;
+    font-weight: 600;
+}
+
+input{
+    width: 80%;
+    display: block;
+    margin: 45px auto;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: antiquewhite;
+    padding: 1em;
+    font-size: 15px;
+    
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 13px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.modal-content a{
+    background: rgb(224, 164, 86);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+.modal-content a:hover{
+    background: rgb(192, 113, 10);
+}
+
+
+
+
+.bg-modal2{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.modal2-content{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 1em;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    
+}
+.modal2-content p{
+    font-size: 19px;
+    text-align: center;
+    color:rgb(192, 113, 10) ;
+    font-weight: 600;
+}
+
+
+
+.close2{
+    position: absolute;
+    top: 0;
+    right: 13px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.modal2-content a{
+    background: rgb(224, 164, 86);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+.contact a{
+    display: block;
+    width: 80%;
+    margin: 45px auto;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: antiquewhite;
+    padding: 1em;
+    font-size: 15px;
+    color: rgb(192, 113, 10);
+}
+.contact{
+    padding-top: 2em;
+}
+
+
+
+.bg-modal3{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.modal3-content{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 1em;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    
+}
+.modal3-content p{
+    font-size: 19px;
+    text-align: center;
+    color:rgb(192, 113, 10) ;
+    font-weight: 600;
+}
+
+
+
+.close3{
+    position: absolute;
+    top: 0;
+    right: 13px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.modal3-content a{
+    background: rgb(224, 164, 86);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+.location a{
+    display: block;
+    width: 80%;
+    margin: 39px auto;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: antiquewhite;
+    padding: 1em;
+    font-size: 15px;
+    color: rgb(192, 113, 10);
+}
+.media-icons{
+    padding-left: 5em ;
+    
+}
+.media-icons a{
+    color:rgb(224, 164, 86);
+    margin: 0.5em;
+    font-size: 30px;
+    
+}
+.media-icons a:hover{
+    color:rgb(192, 113, 10);
+    
+}
+
+
+
+
+
+

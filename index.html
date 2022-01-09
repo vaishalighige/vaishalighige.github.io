@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h2><a href="#" class="logo">LOGO</a></h2>
+            <div class="navigation">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="info">
+                <h3>AI dosen't have to be evil </h3>
+                <h4>to destroy hummanity.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Fugit molestiae totam molestias similique</p> 
+                <p>aut reprehenderit magni tempora tempore nihil cupiditate?</p>
+    
+            </div>
+            <div class="form">
+                <h5>To proceed click any one button from below</h5>
+                <div class="buttons">
+                    <input type="button" value="Book a demo" id="cta-btn">
+                    <input type="button" value="Call us" id="ctb-btn">
+                    <input type="button" value="Reach us at" id="ctc-btn">
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+        </div>
+    </section>
+
+    <div class="bg-modal1">
+        <div class="modal-content">
+            <div class="close">+</div>
+            <p>Book a demo</p>
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="text"placeholder="Email">
+                <input type="text"placeholder="Phone Number">
+                <a href="">Submit</a>
+
+            </form>
+        </div>
+    </div>
+
+    
+    <div class="bg-modal2">
+        <div class="modal2-content">
+            <div class="close2">+</div>
+            <p>Call Us</p>
+            <div class="contact">
+                <a href="">Phone Number</a>
+                <a href="">1234567890</a>
+                <a href="">1234675467</a>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="bg-modal3">
+        <div class="modal3-content">
+            <div class="close3">+</div>
+            <p>Reach us at</p>
+            <div class="location">
+                <a href="">Address</a>
+                <a href="">XX, area, city</a>
+                <a href="">State</a>
+                <a href="">Pincode</a>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+    <script>
+        document.getElementById('cta-btn').addEventListener('click',function(){
+            document.querySelector('.bg-modal1').style.display ='flex';
+
+        });
+        document.querySelector('.close').addEventListener('click',function(){
+            document.querySelector('.bg-modal1').style.display = 'none'
+
+        });
+
+
+    </script>
+
+    <script>
+        document.getElementById('ctb-btn').addEventListener('click',function(){
+            document.querySelector('.bg-modal2').style.display ='flex';
+
+        });
+        document.querySelector('.close2').addEventListener('click',function(){
+            document.querySelector('.bg-modal2').style.display = 'none'
+
+        });
+
+
+
+
+
+    </script>
+
+    <script>
+        document.getElementById('ctb-btn').addEventListener('click',function(){
+            document.querySelector('.bg-modal2').style.display ='flex';
+
+        });
+        document.querySelector('.close2').addEventListener('click',function(){
+            document.querySelector('.bg-modal2').style.display = 'none'
+
+        });
+
+
+
+
+
+    </script>
+
+    <script>
+        document.getElementById('ctc-btn').addEventListener('click',function(){
+            document.querySelector('.bg-modal3').style.display ='flex';
+
+        });
+        document.querySelector('.close3').addEventListener('click',function(){
+            document.querySelector('.bg-modal3').style.display = 'none'
+
+        });
+
+
+
+
+
+    </script>
+</body>
+</html>
